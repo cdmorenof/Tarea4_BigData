@@ -1,0 +1,3 @@
+db.historias_clinicas.find({
+  "edad": { $gte: 40, $lte: 60 }
+});
